@@ -12,7 +12,9 @@ git pull -b 远程分支名 仓库地址
 git push -u origin 远程分支名
 7. 推送某个分支到远程仓库
 git push origin 本地分支名称
-
-
+8.创建tag标签
+git tag -a 标签名 -m '标签描述'
+9.将标签推送到远程仓库
+git push origin 远程分支名 标签名
 
 
